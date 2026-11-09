@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/p5.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.4/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5.sound@0.4.1/dist/p5.sound.min.js"></script>
+    <title>Zara Batalvi</title>
+</head>
+
+<body>
+    <div class="blur-edge"></div>
+    <div class="mycon">
+       <a href="index.html"><img src="../assets/lil_me.png" alt="" id="lilMe"/></a> 
+    </div>
+    <div class="scrolly-grid">
+        <div class="scrolly-card">
+            <div class="preview-image embedded-work" role="button" onclick="pixelPopUp.showModal()"><img src="../assets/pixel_gif.gif"></div>
+            <div class="card-title"><h3>Probabilistic Strangers</h3></div>
+            <div class="card-description"><p>Creating crowdlike affinities between objects, inspired by Markov random fields.</p></div>
+        </div>
+    </div>
+    <dialog class="popup" id="pixelPopUp" closedby="any">
+        <div id="popup-matte">
+            <div id="popup-border"><div id="popup-art"></div></div>
+
+        </div> 
+    </div>
+        <div id="popup-description">
+            <h3>Probabilistic Strangers,</h3>
+            <span class="date">2026</span>
+            <p class="materials">p5.js on HTML canvas</p>
+            <p class="description">Have you ever lost yourself in a swarm? This piece turns canvas elements into strangers in a crowd. Each neighboring cell has a psyche, with its own
+                preferred moods, social energy, and personal history. The result is a grid of unique graphics, glittering and shifting in spite and because of each other. 
+                It is loosely inspired by the probabistic model of Markov random fields and strongly inspired by being a human in the world.</p>
+        </div>
+
+    </dialog>
+    <!-- <script async src="../js/coin.js"></script> -->
+    <script defer src="../js/crowd.js"></script>
+    <script defer src="../js/stranger.js"></script>
+    <script defer src="../js/sketch.js"></script>
+</body>
