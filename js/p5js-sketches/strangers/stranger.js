@@ -1,7 +1,10 @@
-/**
- */
+import p5 from 'https://esm.sh/p5@2.3.4?bundle';
 
-class Stranger {
+const p = new p5((sketch) => {
+  sketch.setup = () => sketch.noCanvas();
+});
+
+export class Stranger {
   static PERSONALITY_AFFINITIES() {
     return {
       loner: {
@@ -85,7 +88,7 @@ class Stranger {
   experience() {
     
     const probs = Object.entries(this.aff).sort((a,b) => a[1] - b[1]);
-    const chance = random();
+    const chance = p.random();
 
     let interval = 0;
     for (let i=0; i<probs.length; i++) {

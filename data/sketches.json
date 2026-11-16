@@ -1,0 +1,26 @@
+[
+    {
+        "id":  "strangers", 
+        "title": "Probabilistic Strangers",
+        "date": "2026",
+        "materials": "p5.js on HTML canvas",
+        "summary": "Creating crowdlike affinities between objects, inspired by Markov random fields.",
+        "description": "Have you ever lost yourself in a swarm? This piece turns canvas elements into strangers in a crowd. Each neighboring cell has a psyche, with its own preferred moods, social energy, and personal history. The result is a grid of unique graphics, glittering and shifting in spite and because of each other. It is loosely inspired by the probabistic model of Markov random fields and strongly inspired by being a human in the world."
+    },
+    {
+        "id":  "mars", 
+        "title": "Mars Dust",
+        "date": "2026",
+        "materials": "p5.js on HTML canvas",
+        "summary": "A reinterpretation of Alma Thomas's eponymous piece.",
+        "description": "In Mars Dust, Alma Thomas paints a rhythmic grid. Each of her stroke varies in its shape, weight, and transparency, creating a sense of downward motion. The interplay between her reds and  blues alludes to corsucation--distant lights twinkling in rain or perhaps even stars behind a cloud of dust. My reinterpretation seeks to honor that feeling by manipulating the relationship between ambient and foreground animation."
+    },
+    {
+        "id":  "flocks", 
+        "title": "Murmuration",
+        "date": "2026",
+        "materials": "p5.js on HTML canvas",
+        "summary": "Exploring birds in motion with emergent behavior.",
+        "description": "This piece is an active exercise in emergence. How does an individual build the momentum and rhythm of its flock? I try to replicate the fluid motion most commonly associated with European Starlings. The result is an imperfect and in-progress experiment."
+    }
+]
